@@ -15,10 +15,16 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
-		 <!-- Added sonar  -->
-		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		 <!--Local Added sonar  -->
+		
+		 <sonar.host.url>http://localhost:9000/</sonar.host.url>
 		 <sonar.login>squ_b921e0652ef4d75a1a39776b74c2446d84520d77</sonar.login>
-	 <!--   <sonar.login>admin</sonar.login>
+		
+		<!--Server Added sonar  -->
+	       <sonar.host.url>http://35.154.142.22:9000/</sonar.host.url>
+		 <sonar.login>squ_157f5c6cd81de1ab391a66e7d82d79a8a6b2aec9</sonar.login>
+		
+		<!--   <sonar.login>admin</sonar.login>
 	    <sonar.password>sonar</sonar.password> -->
 	</properties>
 	<dependencies>
