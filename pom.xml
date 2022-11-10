@@ -17,8 +17,9 @@
 		<java.version>1.8</java.version>
 		 <!-- Added sonar  -->
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
-	    <sonar.login>admin</sonar.login>
-	    <sonar.password>sonar</sonar.password>
+		 <sonar.login>squ_b921e0652ef4d75a1a39776b74c2446d84520d77</sonar.login>
+	 <!--   <sonar.login>admin</sonar.login>
+	    <sonar.password>sonar</sonar.password> -->
 	</properties>
 	<dependencies>
 		<dependency>
